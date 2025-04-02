@@ -13,5 +13,8 @@
   <servlet-name>HelloWorldExample</servlet-name>
   <url-pattern>/hello</url-pattern>
   </servlet-mapping>
+           public String greet(String someone) {
+    return String.format("Hello How are you, %s!", someone);
+  }
   -->
 </web-app>
